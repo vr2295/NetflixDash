@@ -13,12 +13,12 @@ layout = html.Div([
                     , className="mb-5 mt-5")
                 ]),
             dbc.Row([
-                dbc.Col(html.H5(children='FILL THE INFORMATION HERE '
+                dbc.Col(html.H5(children='This Dashboard depicts analysis of the open source data from NETFLIX. The analysis done showing the scores, votes, genre of the movies streamed in NETFLIX.'
                         ), className="mb-4")
             ]),
 
             dbc.Row([
-                dbc.Col(html.H5(children='FILL THE INFORMATION HERE'
+                dbc.Col(html.H5(children='The dataset considered for the ansalysis and dashboard contains 8 variables and the data of 387 movies. The feautures in the dataset considered for analysis are RELEASE_YEAR, SCORENUMBER_OF_VOTES, DURATION, MAIN_GENRE, MAIN_PRODUCTION.
                         ), className="mb-5")
         ]),
             dbc.Row([
