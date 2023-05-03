@@ -32,10 +32,10 @@ layout = html.Div([
                              body=True, color="dark", outline=True)
                     , width=6, className="mb-4"),
 
-                dbc.Col(dbc.Card(children=[html.H3(children='Link to the GitHub page of the Project',
+                dbc.Col(dbc.Card(children=[html.H5(children='Link to the GitHub page of the Project',
                                                className="text-center"),
                                        dbc.Button("GitHub",
-                                                  href="https://github.com/JackLinusMcDonnell/DashAppTeaching",
+                                                  href="https://github.com/vr2295/NetflixDash.git",
                                                   color="primary",
                                                   className="mt-3"),
                                        ],
