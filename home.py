@@ -17,8 +17,7 @@ layout = html.Div([
             ]),
 
             dbc.Row([
-                dbc.Col(html.H5(children='The dataset considered for the ansalysis and dashboard contains 8 variables and the data of 387 movies. The feautures in the dataset considered for analysis are RELEASE_YEAR, SCORENUMBER_OF_VOTES, DURATION, MAIN_GENRE, MAIN_PRODUCTION.
-                        ), className="mb-5")
+                dbc.Col(html.H5(children='The dataset considered for the ansalysis and dashboard contains 8 variables and the data of 387 movies. The feautures in the dataset considered for analysis are RELEASE_YEAR, SCORENUMBER_OF_VOTES, DURATION, MAIN_GENRE, MAIN_PRODUCTION.), className="mb-5")
         ]),
             dbc.Row([
                 dbc.Col(dbc.Card(children=[html.H5(children='Netflix Inc. is an American media company based in Los Gatos, California. Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it operates the over-the-top subscription video on-demand service Netflix brand, which includes original films and television series commissioned or acquired by the company, and third-party content licensed from other distributors.',
