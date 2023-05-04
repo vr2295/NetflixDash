@@ -1,7 +1,6 @@
 from dash import html
 import dash_bootstrap_components as dbc
 import dash
-server = app.server
 header = html.H3('Welcome to the Home page!')
 
 layout = html.Div([
