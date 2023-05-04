@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output, State
 import plotly.express as px
 import plotly.graph_objects as go
 from app import app
-
+server = app.server
 nf = pd.read_csv(r'Best Movies Netflix.csv')
 df1 = nf.groupby(['RELEASE_YEAR'])[['SCORE','NUMBER_OF_VOTES']].mean()
 df2 = nf.groupby(['MAIN_GENRE'])[['SCORE','NUMBER_OF_VOTES']].mean()
