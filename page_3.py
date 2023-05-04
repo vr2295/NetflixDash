@@ -8,7 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from app import app
 from plotly.subplots import make_subplots
-server = app.server
 header = html.H3('Major Genre & Main Production')
 nf = pd.read_csv(r'Best Movies Netflix.csv')
 df3 = pd.DataFrame(nf.groupby(['MAIN_PRODUCTION','MAIN_GENRE'])[['DURATION','SCORE']].mean())
