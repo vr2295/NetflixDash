@@ -25,8 +25,8 @@ navbar = dbc.NavbarSimple(
         brand="Netflix",
         brand_href="/",
         sticky="top",
-        color="dark",  # Change this to change color of the navbar e.g. "primary", "secondary" etc.
-        dark=True,  # Change this to change color of text within the navbar (False for dark text)
+        color="dark",  
+        dark=True,  
     )
 
 app.layout = html.Div([
