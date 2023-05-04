@@ -6,8 +6,6 @@ import page_2
 import page_3
 from app import app
 
-server = app.server
-server = app.server
 app.config.suppress_callback_exceptions = True
 
 navbar = dbc.NavbarSimple(
